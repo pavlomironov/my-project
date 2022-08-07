@@ -1,0 +1,184 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  --header-height: 60px;
+  --footer-height: 60px;
+}
+.scrollTop {
+  position: fixed;
+  bottom: 64px;
+  right: 32px;
+  width: var(--button-width);
+  height: var(--button-height);
+}
+.scrollTop__link {
+  color: white;
+  font-size: 30px;
+}
+.form-field {
+  display: block;
+  margin: 10px;
+}
+.field:focus {
+  background-color: yellow;
+}
+.field:invalid {
+  border: 1px solid red;
+}
+.field:checked ~ .form__label {
+  color: green;
+}
+
+
+
+
+
+
+
+/* html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.nav__link:link {
+color: green;
+}
+.nav__link:visited {
+color: purple;  
+}
+.nav__link:hover {
+color: grey;
+}
+.nav__link:active {
+color: pink;
+}
+.section:target{
+  background-color:  yellowgreen;
+}
+.section:not(:last-child)::after{
+  height: 4px;
+  border-radius:color blue 40px ;
+  }
+ */
+
+
+/* body {
+  --header-height: 70px;
+  --footer-height: 100px;
+  margin: 0;
+  font-family: sans-serif;
+}
+.header {
+  line-height: var(--header-height);
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  line-height: var(--footer-height);
+}
+.main {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  padding: 20px;
+}
+.section {
+  padding: 20px;
+}
+.section-2 {
+  background-color: #ddd;
+}
+.section-4 {
+  background-color: #eee;
+}
+.container {
+  min-width: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+
+
+
+
+
+/* html {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 60px;
+  border: 1px solid #fff;
+  padding: 3px;
+  color: #fff;
+}  
+
+.header {
+  font-size: 1.25rem;
+  background-color: black;
+  padding:0.5em 0;
+  text-align: center;
+}
+
+.nav {
+  display: inline-block;
+
+}
+.link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  padding: 5px;
+
+}
+.title {
+  font-size: 2rem;
+  margin: 16px 0;
+  text-align: center ;
+}
+p {
+  text-align: justify;
+}
+.container {
+  font-size: 1,25rem;
+  margin: auto;
+  width: 500px;
+}
+.courses {
+  display: flex;
+  margin: 50px;
+}
+.course {
+  margin: 0 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background:#eee;
+}
+.footer {
+  background-color: dimgray;
+  background-color: #000000;
+  background-color: rgba(40, 40, 40, 50%);
+  padding: 10px 10px;
+  margin: auto;
+  color: white;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+} */

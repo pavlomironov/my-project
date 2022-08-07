@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mate Academy first start</title>
+</head>
+<body>
+  <h1>Mate Academy git hub practice</h1>
+  
+  <form action="http//localhost:3000/api" 
+    method="post">
+  </form>
+
+  <label class="form-field">
+    Email:
+   <input 
+    type="email" 
+    name="email" 
+    required
+    class="field"
+  >
+   </label>  
+
+ <label class="form-field">
+  Username:
+  <input 
+   class="field"
+    type="text" 
+    name="username"
+
+  >
+ </label>
+
+ <label class="form-field">
+  Password:
+  <input 
+    class="field"
+    type="password" 
+    name="password" 
+    required 
+    minlength="5"
+    maxlength="32"
+    pattern="\d+" 
+  >
+ </label>
+
+ <div class="form-field">
+  <label>
+  Choose your sex:
+
+  <input type="radio" name="sex" value ="m">
+  - man
+ </label>
+
+ <input type="radio" name="sex" value ="f">
+  - woman
+ </label>
+</div>
+
+<label class="form-field">
+
+  Plese your favorite color 
+  <select name="color" required>
+    <option value=""disabled selected>Choose your color</option>
+     <option value="#f00">Red</option>
+     <option value="#0f0">Green</option>
+     <option value="#00f">Blue</option>
+  </select>
+</label>
+
+<label class="form-field">
+  Add your feedback:
+
+  <textarea name="feedback" rows="5" cols="30"></textarea>
+</label>
+
+<div class="form-field">
+  <input class="field" type="checkbox" name="terms" id="terms-and-conditions" required >
+  <label class="form__label" for="terms-and-conditions">
+    I agree terms and conditions
+  </label>
+ </div>
+
+ <label class="form-field">
+  <input type="checkbox" name="remember" value="123" checked>
+  Remember me
+ </label>
+ <button type="button">Button</button>
+ <button type="reset">Reset</button>
+ <button type="submit" disabled>Sign up</button>
+</body>
+</html>
